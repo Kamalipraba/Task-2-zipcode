@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Zipcode Using API</title>
+    <link rel="stylesheet" href="style.css"> 
+</head>
+<body>
+    <div>
+        <h2 class="title">
+          US zipcode
+        </h2>
+      <div id="zipcode">
+        <div>
+          <input  class="zip" type="text" id="query" placeholder="Enter a zipcode" />
+          <button id="check-palindrome" onclick="checkPalindromeFun()">
+           Submit
+          </button>
+          <button  id="reset" onclick="resetButton()">
+            Reset
+          </button>
+          <div class="fetch">
+            <p id="getLocationInfo">
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+</body>
+
+<script src="script.js"></script>
+</html>
+    
+
